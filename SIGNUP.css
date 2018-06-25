@@ -62,14 +62,6 @@ border-bottom:3px solid #616A6B;
 color:white;
 font-weight:bold;
 }
-button{
-    background-color: #7F8C8D;
-    width: 230px;
-    height: 40px;
-    border-radius: 2px;
-    color: white;
-    font-weight: bold
-}
 
 @media only screen and (min-width:700px) and (max-width:995px)
-
+{
