@@ -3,12 +3,23 @@ body{
     
 }
 table , th ,td {
-    border: 1px solid black;
+    border: 3px solid black;
+    border-collapse: collapse;
+    height: 50px;
     }
     th{
-    text-align: left
+    text-align: left;
     }
     td{
     width: 400px;    
     text-align: center
+    }
+    button {
+        box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        height: 40px;
+        width: 150px;
+        background-color: slategrey;
+        color:white;
+        font-style: oblique;
+        
     }

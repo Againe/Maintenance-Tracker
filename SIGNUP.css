@@ -5,8 +5,10 @@ body
  text-align:center;
  width:100%;
  font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
- background-color:rgb(21, 124, 150);
+ background-color:rgb(165, 184, 189);
  background-image: url("X1.jpeg");
+ background-blend-mode: soft-light;
+ background-size: cover;
 }
 #wrapper
 {
@@ -30,7 +32,7 @@ font-size:18px;
 width:330px;
 margin-left:320px;
 padding:10px;
-background-color:#e29d1c5b;
+background-color:#0e08023d;
 }
 .form_div .form_label
 {
@@ -49,6 +51,7 @@ border-radius:2px;
 font-size:17px;
 padding-left:5px;
 border:none;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .form_div input[type="submit"]
 {
@@ -57,11 +60,10 @@ height:40px;
 border:none;
 border-radius:2px;
 font-size:17px;
-background-color:#7F8C8D;
+background-color:blue;
 border-bottom:3px solid #616A6B;
 color:white;
 font-weight:bold;
+border-radius: 20px
 }
 
-@media only screen and (min-width:700px) and (max-width:995px)
-{

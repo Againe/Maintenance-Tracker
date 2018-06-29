@@ -5,8 +5,10 @@ body
  text-align:center;
  width:100%;
  font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
- background-color:rgb(21, 124, 150);
+ background-color:rgb(165, 184, 189);
  background-image: url("X1.jpeg");
+ background-blend-mode: soft-light;
+ background-size: cover;
 }
 #wrapper
 {
@@ -23,14 +25,14 @@ body
 }
 #wrapper h1 p
 {
-font-size:18px;
+font: size 18px;
 }
 .form_div
 {
 width:330px;
 margin-left:320px;
 padding:10px;
-background-color:#e29d1c5b;
+background-color:#0e08023d;
 }
 .form_div .form_label
 {
@@ -57,19 +59,36 @@ height:40px;
 border:none;
 border-radius:2px;
 font-size:17px;
-background-color:#7F8C8D;
+background-color:rgb(8, 99, 105);
 border-bottom:3px solid #616A6B;
 color:white;
 font-weight:bold;
-}
-button{
-    background-color: #7F8C8D;
-    width: 230px;
-    height: 40px;
-    border-radius: 2px;
-    color: white;
-    font-weight: bold
+border-radius: 20px;
 }
 
-@media only screen and (min-width:700px) and (max-width:995px)
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
